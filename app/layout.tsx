@@ -6,21 +6,21 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "rosdyanakusuma.com",
+    template: "%s | rosdyanakusuma.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Indonesian software engineer based in Taiwan.",
   openGraph: {
-    title: "chronark.com",
+    title: "rosdyanakusuma.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Indonesian software engineer based in Taiwan.",
+    url: "https://rosdyanakusuma.com",
+    siteName: "rosdyanakusuma.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
-        width: 1920,
-        height: 1080,
+        url: "https://res.cloudinary.com/rosdyana/image/upload/v1699453129/images/estdn93rtbptljscneem.png",
+        width: 512,
+        height: 512,
       },
     ],
     locale: "en-US",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "rosdyanakusuma",
     card: "summary_large_image",
   },
   icons: {
