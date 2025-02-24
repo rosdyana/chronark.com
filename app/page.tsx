@@ -3,7 +3,7 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-  // { name: "Projects", href: "/projects" },
+  { name: "Music", href: "/musics" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -35,8 +35,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-          I'm an Indonesian software engineer based in Taiwan. I'm currently working on ASUS as a software development specialist.
-        </h2>
+          Indonesian living in Taiwan 🇮🇩🇹🇼 <a href="https://discord.gg/NDYe6z9RXj" rel="noopener noreferrer" target="_blank">#UdahKaburDuluan</a></h2>
       </div>
     </div>
   );
